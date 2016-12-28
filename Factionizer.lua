@@ -2955,7 +2955,8 @@ function FIZ_DumpReputationChangesToChat(initOnly)
 		end
 		-- choose Faction to show
 		SetWatchedFactionIndex(watchIndex)
-		ReputationWatchBar_Update(); -- rfl functions
+		-- ReputationWatchBar_Update(); -- rfl functions -- Legacy Function?
+		ReputationFrame_Update();
 	end
 end
 
